@@ -3,7 +3,7 @@ f = open('sample.txt')  ## if we not write 'r' ,then it autmotically read ,we ca
 data = f.readline()
 print(data)
 
-#  read 2nd line 
+#  read 2nd line -
 data = f.readline()
 print(data)
 
@@ -14,6 +14,6 @@ print(data)
 # Read fourth line... and soo on
 data = f.readline()
 print(data)
-f.close
+f.close()
 
 
